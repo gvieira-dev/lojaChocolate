@@ -4,16 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+     crossorigin="anonymous">
     <title>Minha - Loja</title>
 </head>
 
 <body>
+
     <header>
-        <h1>Minha Loja</h1>
-        <nav>
-            <a href="#produtos">Produtos</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#contato">Contato</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <h1 class="navbar-brand">Minha Loja</h1>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+              
+                </ul>
+            </div>
+
+        </div>    
         </nav>
     </header>
 
@@ -48,11 +71,74 @@
         </section>
         <section>
             <h2 id="sobre">Sobre Nós</h2>
+            <p>Somos uma loja que vende coisas ai...</p>
+            <ul>
+                <li>Entrega rapida</li>
+                <li>Uns produtos ai...</li>
+                <li>Atendimento personalizado</li>
+            <h3> Horário de funcionamento </h3>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Segunda á Sexta</td>
+                        <td>8:00 ás 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sabado</td>
+                        <td>08:00 ás 12:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="contato">
+            <h2>Fale conosco</h2>
+
+            <form action="">
+                <div>
+                    <label for="nome"> Nome </label> 
+                        <input type="text" id="" placeholder="Seu nome"> 
+                    </label> 
+                </div>
+
+                <div
+                     <label for="nome"> E-mail </label> 
+                        <input type="email" id="" placeholder="Seu E-mail"> 
+                    </label>
+                </div>
+
+                <div>
+                    <label for="">Assunto</label>
+                    <select name="Assunto" id="assunto">
+                        <option>Dúvidas</option>
+                        <option>Pedido</option>
+                        <option>Reclamação não tem kkkj</option>
+                    </select>
+                </div>
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" cols="30" rows="10" 
+                placeholder="Digite sua mensagem"></textarea>
+
+                <button>Enviar</button>
+
+            </form>
         </section>
     </main>
     <footer>
+        <address>Rua dos chocolates, 93 - Montes Claros MG</address>
         <p>&copy Feito por Gustavo</p>
     </footer>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+crossorigin="anonymous"></script>
 
 </html>
