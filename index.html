@@ -1,158 +1,186 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-     rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
-     crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <title>Minha - Loja</title>
-</head>
+  </head>
 
-<body>  
+  <body>
     <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <h1 class="navbar-brand">Minha Loja</h1>
-
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#produtos">Produtos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#sobre">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contato">Contato</a>
-                </li>
-            </ul>
-        </div>
-
-    </div>    
-    </nav>
-</header>
-
-<main>
-    <section class="bg-secondary text-white text-center py-5">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <h2 class="display-5">Bem-Vindo a Loja</h2>
-            <p class="lead">Melhores produtos</p>
-        </div>
-    </section>
+          <h1 class="navbar-brand">Minha Loja</h1>
 
-    <section id="produtos" class="container my-5">
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#produtos">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="bg-secondary text-white text-center py-5">
+        <div class="container">
+          <h2 class="display-5">Bem-Vindo a Loja</h2>
+          <p class="lead">Melhores produtos</p>
+        </div>
+      </section>
+
+      <section id="produtos" class="container my-5">
         <h2 class="text-center mb-4">Nossos Produtos</h2>
 
         <div class="row g-2">
+          <div class="card col-md-6 col-lg-4">
+            <img
+              src="https://www.cacaushow.com.br/on/demandware.static/-/Sites-masterCatalog_CacauShow/default/dw8686ebc5/large/1003637_2.png"
+              class="card-img-top"
+              alt="Chocolate"
+            />
+            <div style="height: 200px"></div>
+            <h5 class="card-title">Chocolate Branco</h5>
+            <p class="card-text">Melhor Chocolate</p>
+            <span>R$ 49,90</span>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
 
-            <div class="card col-md-6 col-lg-4">
-                <img src="https://www.cacaushow.com.br/on/demandware.static/-/Sites-masterCatalog_CacauShow/default/dw8686ebc5/large/1003637_2.png" 
-                class="card-img-top" alt="Chocolate">
-                <div style="height: 200px;"></div>
-                <h5 class="card-title">Chocolate Branco</h5>
-                <p class="card-text">Melhor Chocolate</p>
-                <span>R$ 49,90</span>
-                <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
+          <div class="card col-md-6 col-lg-4">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQn5hvwD2vJrOjf9uFBTBEi29d5BaIDhGdbxLvTEFcbw&s=10"
+              class="card-img-top"
+              alt="Chocolate"
+            />
+            <div style="height: 200px"></div>
+            <h5 class="card-title">Chocolate</h5>
+            <p class="card-text">Melhor Chocolate</p>
+            <span>R$ 69,90</span>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
 
-            <div class="card col-md-6 col-lg-4">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQn5hvwD2vJrOjf9uFBTBEi29d5BaIDhGdbxLvTEFcbw&s=10" 
-                class="card-img-top" alt="Chocolate">
-                <div style="height: 200px;"></div>
-                <h5 class="card-title">Chocolate</h5>
-                <p class="card-text">Melhor Chocolate</p>
-                <span>R$ 69,90</span>
-                <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
-
-            <div class="card col-md-6 col-lg-4">
-                <img src="https://www.cacaushow.com.br/on/demandware.static/-/Sites-masterCatalog_CacauShow/default/dw95674abd/large/1002638_2.png" 
-                class="card-img-top" alt="ChocolateLeite">
-                <div style="height: 200px;"></div>
-                <h5 class="card-title">Chocolate ao leite</h5>
-                <p class="card-text">Melhor Chocolate</p>
-                <span>R$ 99,90</span>
-                <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
+          <div class="card col-md-6 col-lg-4">
+            <img
+              src="https://www.cacaushow.com.br/on/demandware.static/-/Sites-masterCatalog_CacauShow/default/dw95674abd/large/1002638_2.png"
+              class="card-img-top"
+              alt="ChocolateLeite"
+            />
+            <div style="height: 200px"></div>
+            <h5 class="card-title">Chocolate ao leite</h5>
+            <p class="card-text">Melhor Chocolate</p>
+            <span>R$ 99,90</span>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section>
-        <h2 id="sobre">Sobre Nós</h2>
-        <p>Somos uma loja que vende coisas ai...</p>
-        <ul>
-            <li>Entrega rapida</li>
-            <li>Uns produtos ai...</li>
-            <li>Atendimento personalizado</li>
-        </ul>
+      <section id="sobre" class="bg-light py-5 bg-dark">
+        <div class="container">
+          <h2 class="text-center mb-4">Sobre Nós</h2>
+          <p class="text-center">Somos uma loja que vende coisas ai...</p>
 
-        <h3> Horário de funcionamento </h3>
+          <div class="d-flex flex-column align-items-center">
+            <ul class="list-group list-group-flush text-center2">
+              <li class="list-group-item">Entrega rapida</li>
+              <li class="list-group-item">Uns produtos ai...</li>
+              <li class="list-group-item">Atendimento personalizado</li>
+            </ul>
+          </div>
 
-        <table border="1">
-            <thead>
+          <div class="d-flex flex-column align-items-center">
+            <h3>Horário de funcionamento</h3>
+
+            <table class="table">
+              <thead class="table-dark">
                 <tr>
-                    <th>Dia</th>
-                    <th>Horário</th>
+                  <th>Dia</th>
+                  <th>Horário</th>
                 </tr>
-            </thead>
+              </thead>
 
-            <tbody>
+              <tbody>
                 <tr>
-                    <td>Segunda á Sexta</td>
-                    <td>8:00 ás 18:00</td>
+                  <td>Segunda á Sexta</td>
+                  <td>8:00 ás 18:00</td>
                 </tr>
                 <tr>
-                    <td>Sabado</td>
-                    <td>08:00 ás 12:00</td>
+                  <td>Sabado</td>
+                  <td>08:00 ás 12:00</td>
                 </tr>
-            </tbody>
-        </table>
-    </section>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
 
-    <section id="contato">
-        <h2>Fale conosco</h2>
+      <section id="contato" class="container my-5">
+        <h2 class="text-content mb-4">Fale conosco</h2>
 
-        <form action="">
-            <div>
-                <label for="nome"> Nome </label> 
-                <input type="text" id="" placeholder="Seu nome"> 
-            </div>
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label"> Nome </label>
+            <input type="text" id="" class="form-control"   placeholder="Seu nome" />
+          </div>
 
-            <div>
-                <label for="nome"> E-mail </label> 
-                <input type="email" id="" placeholder="Seu E-mail"> 
-            </div>
+          <div>
+            <label for="email" class="form-label" > E-mail </label>
+            <input type="email" id="" placeholder="Seu E-mail" class="form-control" />
+          </div>
 
-            <div>
-                <label for="">Assunto</label>
-                <select name="Assunto" id="assunto">
-                    <option>Dúvidas</option>
-                    <option>Pedido</option>
-                    <option>Reclamação não tem kkkj</option>
-                </select>
-            </div>
+          <div class="mb-3">
+            <label for="" class="form-label">Assunto</label>
+            <select name="Assunto" id="assunto" class="form-select">
+              <option>Dúvidas</option>
+              <option>Pedido</option>
+              <option>Reclamação não tem kkkj</option>
+            </select>
+          </div>
 
-            <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" cols="30" rows="10" 
-            placeholder="Digite sua mensagem"></textarea>
+          <label for="mensagem" class="form-label">Mensagem</label>
+          <textarea class="form-control"
+            id="mensagem"
+            cols="30"
+            rows="10"
+            placeholder="Digite sua mensagem"
+          ></textarea>
 
-            <button>Enviar</button>
-
+          <button class="btn btn-primary w-100">Enviar</button>
         </form>
-    </section>
-</main>
+      </section>
+    </main>
 
-<footer>
-    <address>Rua dos chocolates, 93 - Montes Claros MG</address>
-    <p>&copy Feito por Gustavo</p>
-</footer>
+    <footer class="bg-dark text-white text-center py-4">
+      <address class="mb-2">Rua dos chocolates, 93 - Montes Claros MG</address>
+      <p class="mb-0" >&copy Feito por Gustavo</p>
+    </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-FKyoEForCGlyvwxHj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
-crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwxHj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
